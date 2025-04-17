@@ -1,13 +1,12 @@
-﻿using Moq;
-using FluentAssertions;
-using Microsoft.AspNetCore.Mvc;
+﻿using FluentAssertions;
 using JobApplicationTracker.Controllers;
-using JobApplicationTracker.Services;
-using JobApplicationTracker.Models;
-using Microsoft.Extensions.Logging;
-using System.Net;
 using JobApplicationTracker.Exceptions;
 using JobApplicationTracker.Middleware;
+using JobApplicationTracker.Models;
+using JobApplicationTracker.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using Moq;
 
 namespace JobApplicationTracker.Tests.Controllers
 {
